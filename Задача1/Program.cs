@@ -5,15 +5,15 @@
 // a = -9 b = -3 -> max = -3
 
 Console.WriteLine("Введите число a: ");
-int a = Convert.ToInt32 (Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число b: ");
-int b = Convert.ToInt32 (Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
 
-if (a>b)
-    {
-        Console.Write("Число a является большим, а число b - меньшим");
-    }  
-else 
+if (a > b)
+{
+    Console.Write("Число a является большим, а число b - меньшим");
+}
+else
 {
     Console.WriteLine("Число b является большим, а число a - меньшим");
 }
